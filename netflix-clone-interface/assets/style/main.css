@@ -1,6 +1,6 @@
 :root {
-  --azul: #545fc4;
-  --azul-escuro: #0c0f1a;
+  --vermelho: #e50914;
+  --preta: #141414;
 }
 
 * {
@@ -11,7 +11,7 @@
 
 /*elementos base*/
 body {
-  background: var(--azul-escuro);
+  background: var(--preta);
   font-family: "Arial", Times, serif;
   color: white;
 }
@@ -25,7 +25,7 @@ header .container {
 
 header .logo {
   margin-left: 5px;
-  color: var(--azul);
+  color: var(--vermelho);
   font-family: "Arial Black", Times;
   font-size: 40px;
   text-transform: uppercase;
